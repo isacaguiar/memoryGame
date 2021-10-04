@@ -6,12 +6,13 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/responsivity.css">
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsivity.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
 
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/sidebars.css">
 
     <script src="https://kit.fontawesome.com/b3d71d9641.js" crossorigin="anonymous"></script>
 
@@ -31,9 +32,7 @@
         }
     </style>
 
-    <link rel="stylesheet" href="./styles/sidebars.css">
-
-    <title>Memory Game</title>
+    <title>Memorizando com Letras e Números</title>
 </head>
 <body>
 
