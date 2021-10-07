@@ -12,11 +12,14 @@
         <li>
         <a href="game.php" class="nav-link link-dark">
             <i class="fas fa-gamepad"></i> Jogar</a></li>
+        <a href="https://github.com/isacaguiar/memoryGame" target="_blank" class="nav-link link-dark">
+            <i class="fab fa-github"></i> Código Fonte</a>
+            
     </ul>
     <hr>
     
     <?php $url = $_SERVER['REQUEST_URI'];
-            if (strpos($url,'game') !== false) { ?>  
+            if (strpos($url,'game.php') !== false) { ?>  
     <ul class="nav nav-pills flex-column mb-auto">
         <li><h5 style="margin-left: 10px">Cartas Viradas</h5></li>
         <li><h6 style="margin-left: 10px"><i class="fas fa-angle-double-right"></i> <span id="region_quantity"></span></h6></li>

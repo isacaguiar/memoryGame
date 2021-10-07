@@ -28,6 +28,8 @@ function resetCounters() {
     controlHistoric();
     recordsHit = 0;
     quantityFlipCard = 0;
+    var element = document.getElementById('region_quantity');
+    element.innerHTML = 0;
 }
 
 function checkCompletion() {

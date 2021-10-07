@@ -40,7 +40,7 @@
       <?php include("layout/menu.php") ?>
     
       <div class="container m-4" style="text-align: justify; overflow: auto;">
-        <h1>Memorizando com Frutas e números</h1>
+        <h1>Memorizando com Frutas e Números</h1>
         <hr/>
         <p style="float: right"><img width="300px" src="images/tela-apresentacao.png"></p>
         <p>Memorizando com Frutas e Números – Um jogo da memória, educativo, que visa unir imagens e números para facilitar o processo de memorização, de forma a desenvolver e aperfeiçoar o raciocínio, através da criação de relações entre imagem e sequência numérica das cartas dispostas. </p>
