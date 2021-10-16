@@ -9,9 +9,10 @@ let recordsHit = 0;
 const soundFlipCard = new Audio("../music/virada_01.wav");
 const soundFinal    = new Audio("../music/applause_01.mp3");
 
+var element = document.getElementById('region_quantity');
+
 function controlQuantity() {
     quantityFlipCard++;
-    var element = document.getElementById('region_quantity');
     element.innerHTML = quantityFlipCard;
 }
 
@@ -28,7 +29,6 @@ function resetCounters() {
     controlHistoric();
     recordsHit = 0;
     quantityFlipCard = 0;
-    var element = document.getElementById('region_quantity');
     element.innerHTML = 0;
 }
 
@@ -95,18 +95,6 @@ function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-
-        resetBoard();
-    }, 1500);
-}
-
-function unflipAllCards() {
-    lockBoard = true;
-
-    setTimeout(() => {
-        firstCard.classList.remove('flip');
-        secondCard.classList.remove('flip');
-
         resetBoard();
     }, 1500);
 }
